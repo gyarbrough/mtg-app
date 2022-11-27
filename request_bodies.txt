@@ -1,0 +1,164 @@
+--Create User Requests
+{
+  "username": "Test User 1",
+  "email": "test1@testmail.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+{
+  "username": "Test User 2",
+  "email": "test2@testmail.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+{
+  "username": "Delete Me",
+  "email": "deleted@deleted.com",
+  "password": "delete",
+  "confirmPassword": "delete"
+}
+
+--Create Collection Request
+{
+  "user": "Test User 1",
+  "cards": [
+    "Plains",
+    "Forest",
+    "Mountain",
+    "Island",
+    "Swamp",
+    "Screeching Skaab",
+    "Asphodel Wanderer",
+    "Diregraf Captain"
+  ]
+}
+
+--Update Collection Request
+{
+  "user": "Test User 1",
+  "cards": [
+    "Plains",
+    "Forest",
+    "Mountain",
+    "Island",
+    "Swamp",
+    "Screeching Skaab",
+    "Asphodel Wanderer",
+    "Diregraf Captain",
+    "Kragma Warcaller",
+    "Pharika's Mender",
+    "Spellskite",
+    "Sickleslicer",
+    "Phyrexian Hulk",
+    "Shrine of Burning Rage",
+    "Warden of the Wall",
+    "Fleetfeather Sandals",
+    "Anvilwrought Raptor",
+    "Tower of Calamities",
+    "Pestilent Souleater",
+    "Cellar Door",
+    "Witches' Eye",
+    "Nemesis of Mortals",
+    "Craw Wurm",
+    "Redwood Treefolk",
+    "Serpentine Kavu",
+    "Trained Armodon",
+    "Viridian Harvest",
+    "Vital Splicer",
+    "Young Wolf",
+    "Kessig Recluse",
+    "Grim Flowering",
+    "Pheres-Band Centaurs",
+    "Vulpine Goliath"
+  ]
+}
+
+--Create Card Request
+{
+  "cardId": "2cc371de-3e82-4d66-8636-f9c03579ba10",
+  "name": "Rambunctious Mutt",
+  "releaseDate": "2022-12-02",
+  "manaCost": "{3}{W}{W}",
+  "cmc": 5,
+  "typeLine": "Creature — Dog",
+  "oracleText": "When Rambunctious Mutt enters the battlefield, destroy target artifact or enchantment an opponent controls.",
+  "power": 3,
+  "toughness": 4,
+  "setCode": "j22",
+  "setName": "Jumpstart 2022",
+  "collectorNumber": 231,
+  "rarity": "common",
+  "flavorText": "Emphatic words with powerful gestures. Clearly this was playtime.",
+  "artist": "Campbell White",
+  "priceUsd": 0.0
+}
+
+--Create Deck Request
+{
+  "user": "Test User 1",
+  "deckName": "Grixis Midrange",
+  "cards": [
+    "Bloodtithe Harvester",
+    "Corpse Appraiser",
+    "Ertai Resurrected"
+  ]
+}
+
+{
+  "user": "Test User 1",
+  "deckName": "Esper Midrange",
+  "cards": [
+    "Dennick, Pious Apprentice // Dennick, Pious Apparition",
+    "Jadar, Ghoulcaller of Nephalia",
+    "Thalia, Guardian of Thraben",
+    "Adeline, Resplendent Cathar",
+    "Raffine, Scheming Seer",
+    "Toluz, Clever Conductor",
+    "Ratadrabik of Urborg",
+    "Ao, the Dawn Sky",
+    "Adarkar Wastes",
+    "Caves of Koilos",
+    "Eiganjo, Seat of the Empire",
+    "Plaza of Heroes",
+    "Shattered Sanctum",
+    "Takenuma, Abandoned Mire",
+    "Shipwreck Marsh",
+    "Raffine's Tower",
+    "Otawara, Soaring City"
+  ]
+}
+
+--Update Deck Request
+{
+  "user": "Test User 1",
+  "deckName": "Grixis Midrange",
+  "cards": [
+    "Bloodtithe Harvester",
+    "Corpse Appraiser",
+    "Ertai Resurrected",
+    "Sheoldred, the Apocalypse",
+    "Cut Down",
+    "Duress",
+    "Voltage Surge",
+    "Abrade",
+    "Infernal Grasp",
+    "Make Disappear",
+    "Negate",
+    "Soul Transfer",
+    "Invoke Despair",
+    "Reckoner Bankbuster",
+    "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+    "Haunted Ridge",
+    "Otawara, Soaring City",
+    "Raffine's Tower",
+    "Shipwreck Marsh",
+    "Shivan Reef",
+    "Stormcarved Coast",
+    "Sulfurous Springs",
+    "Swamp",
+    "Takenuma, Abandoned Mire",
+    "Xander's Lounge"
+  ]
+}

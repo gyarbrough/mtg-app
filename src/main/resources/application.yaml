@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: mtg
+    password: mtg
+    url: jdbc:mysql://localhost:3306/mtg
+
+logging:
+  level:
+    root: warn
+    '[com.dragonforge]': debug
